@@ -13,17 +13,17 @@ int mean(int a, int b)
 int main()
 {
     /* ';' ends a statement */
-    int i, j;
+    int x, y;
     int answer;
 
-    i = 7;
-    j = 9;
+    x = 7;
+    y = 9;
 
     /* Stores the value of the mean of i and j in the int variable answer */
-    answer = mean(i, j);
+    answer = mean(x, y);
 
     /* Prints answer using printf. %d is a placeholder for int values. Use %f for floating-point numbers and %s for strings. */
-    printf("The mean of %d and %d is %d\n", i, j, answer);
+    printf("The mean of %d and %d is %d\n", x, y, answer);
 
     /* Program ends here */
     return 0;
