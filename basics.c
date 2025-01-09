@@ -1,3 +1,4 @@
+/* #include checks the /usr/include directory for .h files with specific sets of code. stdio.h and stdlib.h should always be included. */
 #include <stdio.h>
 #include <stdlib.h>
 
