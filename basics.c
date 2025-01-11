@@ -1,31 +1,31 @@
-/* #include checks the /usr/include directory for .h files with specific sets of code. stdio.h and stdlib.h should always be included. */
+// #include checks the /usr/include directory for .h files with specific sets of code. stdio.h and stdlib.h should always be included.
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Functions are defined at the top of a program */
+// Functions are defined at the top of a program
 int mean(int a, int b)
 {
-    /* Calculates the mean of the int arguments a and b */
+    // Calculates the mean of the int arguments a and b
     return (a + b)/2;
 }
 
-/* Execution starts here at the main function */
+// Execution starts here at the main function
 int main()
 {
-    /* ';' ends a statement */
+    // ';' ends a statement
     int x, y;
     int answer;
 
     x = 7;
     y = 9;
 
-    /* Stores the value of the mean of i and j in the int variable answer */
+    // Stores the value of the mean of i and j in the int variable answer
     answer = mean(x, y);
 
-    /* Prints answer using printf. %d is a placeholder for int values. Use %f for floating-point numbers and %s for strings. */
+    // Prints answer using printf. %d is a placeholder for int values. Use %f for floating-point numbers and %s for strings.
     printf("The mean of %d and %d is %d\n", x, y, answer);
 
-    /* Program ends here */
+    // Program ends here
     return 0;
 }
 
