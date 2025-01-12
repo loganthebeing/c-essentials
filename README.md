@@ -17,3 +17,4 @@ gcc -o basics basics.c
 ./basics
 ```
 [basics.c](https://soiffi.com/technology/c-essentials/basics-c/)
+[morebasics.c](https://soiffi.com/technology/c-essentials/morebasics-c/)
