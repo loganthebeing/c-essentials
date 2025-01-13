@@ -33,6 +33,25 @@ int main()
     third.numerator = 1;
     third.denominator = 3;
 
+    // If-Else construct
+    int n = 2;
+    if (n == 2) { // Checks whether n equals 2
+        printf("Hello world!");
+    } else {
+        printf("Was a variable changed?");
+    }
+
+    // Switch construct
+    int x = 5;
+    switch(x) {
+        case 1: printf("x is nine\n");
+            break;
+        case 2: printf("x is seven\n");
+            break;
+        default: printf("x is neither nine nor seven\n");
+            break;
+    }
+
     // Program ends here
     return 0;
 } 
