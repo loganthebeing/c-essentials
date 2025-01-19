@@ -52,6 +52,28 @@ int main()
             break;
     }
 
+    // Loops
+    int i = 0;
+    int o = 0;
+    while (i < 10) {
+        printf("While Loops test the top of the loop %d\n", o);
+        o = o + 1;
+        i = i + 1;
+    }
+
+    int p = 0;
+    int k = 0;
+    do {
+        printf("Do-While Loops test the bottom of the loop %d\n", k);
+        k = k + 1;
+        p = p + 1;
+    } while (k < 10);
+
+    int t = 0;
+    for (int g = 9; g < 18; g = g + 1)
+        t = t + g;
+    printf("This for loop says the total is %d\n", t);
+    
     // Program ends here
     return 0;
 } 
