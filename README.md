@@ -1,4 +1,4 @@
-# [C](https://soiffi.com/technology/c-essentials/)
+# [C](https://soiffi.com/technology/c/)
 Tim Love, “[ANSI C for Programmers on UNIX Systems](https://www.cs.utexas.edu/~dahlin/Classes/UGOS/reading/loveC.pdf),” Cambridge University Engineering Department, 21 March 1996.
 ## How to Use Code
 **Important**: Instructions are for Linux users. Linux can be installed on Windows with [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install).
